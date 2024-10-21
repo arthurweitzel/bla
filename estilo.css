@@ -1,0 +1,77 @@
+/* estilo.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    position: relative; /* Para posicionar o título no canto */
+}
+
+.titulo {
+    color: #333;
+    font-size: 26px;
+    font-weight: 600; /* Negrito para destaque */
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.form-container {
+    background-color: #f8f8f8; /* Fundo ainda mais claro */
+    padding: 30px;
+    border-radius: 12px; /* Bordas mais arredondadas */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+}
+
+.form-label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #333;
+    font-weight: 600;
+}
+
+.form-input {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    font-size: 14px;
+    background-color: #fff;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-input:focus {
+    border-color: #777;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    outline: none;
+}
+
+.form-button {
+    width: 100%;
+    padding: 15px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-button:hover {
+    background-color: #555;
+}
+
+.form-button:active {
+    background-color: #111;
+}
